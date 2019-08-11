@@ -38,7 +38,7 @@ public class MyListViewAdapter extends ArrayAdapter<Reminder> implements View.On
 
     private final static int RQS_1 = 1;
 
-    public MyListViewAdapter(@NonNull Context context, int resourceId, @NonNull ArrayList<Reminder> reminderList) {
+    public MyListViewAdapter(@NonNull Context context, int resourceId, ArrayList<Reminder> reminderList) {
         super(context, resourceId, reminderList);
         mContext = context;
         reminderListLayout = resourceId;
