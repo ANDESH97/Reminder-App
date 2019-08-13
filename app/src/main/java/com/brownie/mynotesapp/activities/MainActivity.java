@@ -94,9 +94,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             {
                 if(!addReminder.getText().toString().isEmpty())
                 {
-                    addReminder.setText("");
+                    /*addReminder.setText("");
                     addReminder.clearComposingText();
-                    addReminder.clearFocus();
+                    addReminder.clearFocus();*/
 
                     Reminder newReminder = new Reminder();
                     newReminder.setrDescription(addReminder.getText().toString());
